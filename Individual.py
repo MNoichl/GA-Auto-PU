@@ -1,7 +1,7 @@
 import random as rand
 import numpy as np
 
-from Classifiers import Classifiers
+from .Classifiers import Classifiers
 
 class Individual:
     """Class to store information of an individual."""
