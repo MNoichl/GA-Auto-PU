@@ -17,7 +17,7 @@ from sklearn.tree import ExtraTreeClassifier
 from sklearn.gaussian_process import GaussianProcessClassifier
 from sklearn.ensemble import HistGradientBoostingClassifier
 from sklearn.linear_model import SGDClassifier
-from deepforest import CascadeForestClassifier
+# from deepforest import CascadeForestClassifier
 
 
 class Classifiers: 
@@ -37,8 +37,8 @@ class Classifiers:
                                                         verbose=verbosity, loss="log")),
                             KNeighborsClassifier(),
                             LogisticRegression(random_state=random_state, verbose=verbosity),
-                            CascadeForestClassifier(random_state=random_state, verbose=verbosity,
-                                                 backend="sklearn"),
+#                            CascadeForestClassifier(random_state=random_state, verbose=verbosity,
+#                                                 backend="sklearn"),
                             AdaBoostClassifier(random_state=random_state),
                             GradientBoostingClassifier(random_state=random_state,
                                                        verbose=verbosity),
