@@ -21,8 +21,8 @@ import traceback
 
 import warnings
 
-from Individual import Individual
-from Classifiers import Classifiers
+from .Individual import Individual
+from .Classifiers import Classifiers
 
 
 class Auto_PU:
