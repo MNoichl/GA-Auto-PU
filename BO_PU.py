@@ -21,7 +21,7 @@ import traceback
 
 import warnings
 
-from Individual import Individual
+from .Individual import Individual
 
 import os
 from sklearn.ensemble import RandomForestRegressor
